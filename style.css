@@ -1,0 +1,133 @@
+/* Header Styles */
+header {
+    background-color: #6c63ff; /* Dark purple background */
+    color: white; /* White text */
+    padding: 20px; /* Space around content */
+    text-align: center; /* Center the text */
+}
+
+header h1 {
+    font-size: 3em; /* Large font for main title */
+}
+
+header p {
+    font-size: 1.8em; /* Slightly smaller font for description */
+}
+
+/* Section Title Styles */
+section h2 {
+    color: #6c63ff; /* Purple text for section titles */
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Space above and below */
+}
+
+/* Introduction Section */
+#introduction {
+    padding: 10px; /* Padding inside the section */
+    background-color: #ececff; /* Light purple background */
+    text-align: center; /* Center the text */
+}
+
+/* Profiles Section */
+#profiles {
+    display: flex; /* Make items line up next to each other */
+    justify-content: space-around; /* Space them evenly */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    padding: 20px; /* Space around the whole section */
+    gap: 20px; /* Space between profiles */
+}
+
+/* Member Profile Styles */
+.member {
+    background-color: white; /* White background */
+    border: 1px solid #ddd; /* Light border around each profile */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Space inside the box */
+    max-width: 250px; /* Set a maximum width for each profile */
+    text-align: center; /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.member h3 {
+    font-size: 1.5em; /* Medium-sized font for names */
+    color: black; /* Dark gray color */
+}
+
+.member img {
+    border-radius: 50%; /* Circular image */
+    width: 150px; /* Width of the image */
+    height: 150px; /* Height of the image */
+    margin: 10px 0; /* Space around the image */
+}
+
+/* Hobbies Section */
+.hobbies h4 {
+    font-size: 1.5em;
+    color: #6c63ff; /* Purple color for "Hobbies" title */
+}
+
+.hobbies ul {
+    list-style-type: square; /* Square bullet points */
+    padding-left: 20px; /* Indent the list */
+}
+
+/* Nigerian Meals Section */
+#nigerian-meals {
+    background-color: #fdf7e8; /* Light yellow background */
+    padding: 20px; /* Space around the section */
+}
+
+.meal {
+    background-color: white; /* White background */
+    border: 1px solid #ddd; /* Light border around each meal */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Space inside the box */
+    max-width: 500px; /* Maximum width */
+    margin: 20px auto; /* Center meals and add margin above/below */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.meal h3 {
+    font-size: 1.3em; /* Medium-sized font for meal names */
+    color: #333; /* Dark gray */
+}
+
+.meal img {
+    width: 100%; /* Make image fit the container width */
+    height: auto; /* Keep image's original proportions */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Center the text */
+    padding: 15px; /* Space around the content */
+}
+
+footer p {
+    margin: 5px 0; /* Small margin above/below each line */
+}
+
+footer a {
+    color: #6c63ff; /* Purple link color */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    #profiles {
+        flex-direction: column; /* Stack profiles vertically */
+        align-items: center; /* Center profiles on small screens */
+    }
+
+    .meal {
+        max-width: 90%; /* Limit meal width on small screens */
+    }
+}

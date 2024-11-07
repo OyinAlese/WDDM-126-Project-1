@@ -108,3 +108,14 @@ footerLinks.forEach((link) => {
           image.style.transform = 'scale(1)';
       });
   });
+
+    // 11. Scale up section titles on hover
+    sectionTitles.forEach((title) => {
+        title.style.transition = 'transform 0.3s ease-in-out';
+        title.addEventListener('mouseover', () => {
+            title.style.transform = 'scale(1.1)';
+        });
+        title.addEventListener('mouseout', () => {
+            title.style.transform = 'scale(1)';
+        });
+    });

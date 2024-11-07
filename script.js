@@ -141,3 +141,16 @@ footerLinks.forEach((link) => {
             link.style.color = '#6c63ff'; // Original purple color
         });
     });
+
+
+    
+    // 14. Rotate Nigerian meals images on hover
+    mealImages.forEach((image) => {
+        image.style.transition = 'transform 0.3s ease-in-out';
+        image.addEventListener('mouseover', () => {
+            image.style.transform = 'rotate(5deg)';
+        });
+        image.addEventListener('mouseout', () => {
+            image.style.transform = 'rotate(0)';
+        });
+    });

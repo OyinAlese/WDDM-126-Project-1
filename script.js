@@ -96,3 +96,15 @@ footerLinks.forEach((link) => {
          nigerianMealsSection.style.opacity = 1;
      }
  });
+
+  // 10. Hover effect for meal images
+  const mealImages = document.querySelectorAll('.meal img');
+  mealImages.forEach((image) => {
+      image.style.transition = 'transform 0.3s ease-in-out';
+      image.addEventListener('mouseover', () => {
+          image.style.transform = 'scale(1.1)';
+      });
+      image.addEventListener('mouseout', () => {
+          image.style.transform = 'scale(1)';
+      });
+  });

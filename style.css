@@ -91,3 +91,22 @@ section h2 {
     max-width: 800px; /* Limits paragraph width for readability */
     margin: 0 auto; /* Center-align paragraph text */
 }
+
+/*Famous Landmarks Section */
+#Famous-Landmarks {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Individual landmark styling */
+.Landmarks {
+    display: flex; /* Horizontal layout */
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}

@@ -128,3 +128,19 @@ section h2 {
     color: #333;
     line-height: 1.6;
 }
+
+/* Text container to wrap text elements */
+.Landmarks div {
+    width: 60%; /* Adjust to take up remaining space beside the image */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .Landmarks {
+        flex-direction: column; /* Stack image and text vertically on small screens */
+    }
+
+    .Landmarks img, .Landmarks div {
+        width: 100%; /* Full width for smaller screens */
+    }
+}

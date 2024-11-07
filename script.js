@@ -47,3 +47,19 @@
         }
     });
 });
+
+  // 6. Animate the section title
+  const sectionTitles = document.querySelectorAll('section h2');
+  sectionTitles.forEach((title) => {
+      title.style.transform = 'translateY(-20px)';
+      title.style.opacity = 0;
+      title.style.transition = 'transform 0.5s ease, opacity 0.5s ease';
+      window.addEventListener('scroll', () => {
+          const titleTop = title.getBoundingClientRect().top;
+          const windowHeight = window.innerHeight;
+          if (titleTop < windowHeight - 50) {
+              title.style.transform = 'translateY(0)';
+              title.style.opacity = 1;
+          }
+      });
+  });

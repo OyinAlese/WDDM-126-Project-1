@@ -63,3 +63,12 @@
           }
       });
   });
+
+    // 7. Add a click interaction to hobbies title
+    const hobbiesTitles = document.querySelectorAll('.hobbies h4');
+    hobbiesTitles.forEach((title) => {
+        title.style.cursor = 'pointer';
+        title.addEventListener('click', () => {
+            title.nextElementSibling.classList.toggle('hidden');
+        });
+    });

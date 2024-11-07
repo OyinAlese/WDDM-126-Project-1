@@ -71,3 +71,23 @@ section h2 {
     list-style-type: square; /* Square bullet points */
     padding-left: 20px; /* Indent the list */
 }
+/* Styling for the Nigeria section */
+#Nigeria {
+    background-color: #e8f4f8; /* Light blue background color */
+    padding: 50px 20px; /* Extra padding to create space around the content */
+    text-align: center; /* Center-align text */
+    width: 100vw; /* Full viewport width */
+    margin: 0; /* Remove default margin */
+}
+
+#Nigeria h2, #Nigeria h3 {
+    color: #004466; /* Darker blue for headings */
+    margin-bottom: 10px;
+}
+
+#Nigeria p {
+    color: #333; /* Darker text color for readability */
+    line-height: 1.6;
+    max-width: 800px; /* Limits paragraph width for readability */
+    margin: 0 auto; /* Center-align paragraph text */
+}

@@ -84,3 +84,15 @@ footerLinks.forEach((link) => {
         }
     });
 });
+
+ // 9. Fade-in animation for the Nigerian meals section
+ const nigerianMealsSection = document.querySelector('#nigerian-meals');
+ nigerianMealsSection.style.opacity = 0;
+ nigerianMealsSection.style.transition = 'opacity 2s ease-in-out';
+ window.addEventListener('scroll', () => {
+     const sectionTop = nigerianMealsSection.getBoundingClientRect().top;
+     const windowHeight = window.innerHeight;
+     if (sectionTop < windowHeight - 100) {
+         nigerianMealsSection.style.opacity = 1;
+     }
+ });

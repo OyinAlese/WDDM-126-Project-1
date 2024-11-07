@@ -144,3 +144,43 @@ section h2 {
         width: 100%; /* Full width for smaller screens */
     }
 }
+
+/* Famous Artists Section */
+#Famous-Artists {
+    background-color: #ececff; /* Light yellow background */
+    padding: 20px; /* Space around the section */
+}
+
+.Artists {
+    background-color: white; /* White background */
+    border: 1px solid #ddd; /* Light border around each meal */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Space inside the box */
+    max-width: 500px; /* Maximum width */
+    margin: 20px auto; /* Center meals and add margin above/below */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.Artists h3 {
+    font-size: 1.3em; /* Medium-sized font for meal names */
+    color: #333; /* Dark gray */
+}
+
+.Artists img {
+    width: 100%; /* Make image fit the container width */
+    height: auto; /* Keep image's original proportions */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    #profiles {
+        flex-direction: column; /* Stack profiles vertically */
+        align-items: center; /* Center profiles on small screens */
+    }
+
+    .meal {
+        max-width: 90%; /* Limit meal width on small screens */
+    }
+}

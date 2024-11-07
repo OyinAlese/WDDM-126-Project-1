@@ -31,3 +31,19 @@
          profile.style.transform = 'scale(1)';
      });
  });
+
+  // 5. Click to expand/collapse member details
+  memberProfiles.forEach((profile) => {
+    const details = profile.querySelector('p:nth-of-type(2)');
+    details.style.maxHeight = '50px';
+    details.style.overflow = 'hidden';
+    details.style.transition = 'max-height 0.5s ease-in-out';
+
+    profile.addEventListener('click', () => {
+        if (details.style.maxHeight === '50px') {
+            details.style.maxHeight = '300px';
+        } else {
+            details.style.maxHeight = '50px';
+        }
+    });
+});

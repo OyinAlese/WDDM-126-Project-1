@@ -29,3 +29,45 @@ section h2 {
     background-color: #ececff; /* Light purple background */
     text-align: center; /* Center the text */
 }
+/* Profiles Section */
+#profiles {
+    display: flex; /* Make items line up next to each other */
+    justify-content: space-around; /* Space them evenly */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    padding: 20px; /* Space around the whole section */
+    gap: 20px; /* Space between profiles */
+}
+
+/* Member Profile Styles */
+.member {
+    background-color: white; /* White background */
+    border: 1px solid #ddd; /* Light border around each profile */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Space inside the box */
+    max-width: 250px; /* Set a maximum width for each profile */
+    text-align: center; /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.member h3 {
+    font-size: 1.2em; /* Medium-sized font for names */
+    color: black; /* Dark gray color */
+}
+
+.member img {
+    border-radius: 50%; /* Circular image */
+    width: 150px; /* Width of the image */
+    height: 150px; /* Height of the image */
+    margin: 10px 0; /* Space around the image */
+}
+
+/* Hobbies Section */
+.hobbies h4 {
+    font-size: 1.5em;
+    color: #6c63ff; /* Purple color for "Hobbies" title */
+}
+
+.hobbies ul {
+    list-style-type: square; /* Square bullet points */
+    padding-left: 20px; /* Indent the list */
+}

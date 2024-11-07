@@ -119,7 +119,7 @@ footerLinks.forEach((link) => {
             title.style.transform = 'scale(1)';
         });
     });
-    
+
     12. Add a shake animation on member images when clicked
     const memberImages = document.querySelectorAll('.member img');
     memberImages.forEach((image) => {
@@ -128,5 +128,16 @@ footerLinks.forEach((link) => {
             setTimeout(() => {
                 image.classList.remove('shake');
             }, 500);
+        });
+    });
+
+      // 13. Add hover effect for footer links
+      footerLinks.forEach((link) => {
+        link.style.transition = 'color 0.3s ease-in-out';
+        link.addEventListener('mouseover', () => {
+            link.style.color = '#ff6347'; // Tomato color on hover
+        });
+        link.addEventListener('mouseout', () => {
+            link.style.color = '#6c63ff'; // Original purple color
         });
     });

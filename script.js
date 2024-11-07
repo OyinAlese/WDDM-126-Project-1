@@ -154,3 +154,11 @@ footerLinks.forEach((link) => {
             image.style.transform = 'rotate(0)';
         });
     });
+
+     // 15. Highlight profiles on click
+     memberProfiles.forEach((profile) => {
+        profile.addEventListener('click', () => {
+            profile.classList.toggle('highlighted');
+        });
+    });
+});

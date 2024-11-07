@@ -119,3 +119,14 @@ footerLinks.forEach((link) => {
             title.style.transform = 'scale(1)';
         });
     });
+    
+    12. Add a shake animation on member images when clicked
+    const memberImages = document.querySelectorAll('.member img');
+    memberImages.forEach((image) => {
+        image.addEventListener('click', () => {
+            image.classList.add('shake');
+            setTimeout(() => {
+                image.classList.remove('shake');
+            }, 500);
+        });
+    });

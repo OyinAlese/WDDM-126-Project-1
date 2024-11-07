@@ -113,14 +113,15 @@ section h2 {
 
 /* Image styling within each landmark */
 .Landmarks img {
-    width: 40%; /* Adjust as needed to control image size */
-    height: auto;
-    border-radius: 8px;
+    width: 100%; /* Adjust as needed to control image size */
+    height: auto px;
+    border-radius: 10px;
 }
 
 /* Content styling within each landmark */
 .Landmarks h3 {
     color: #0044cc;
+    text-align: center;
     margin-bottom: 10px;
 }
 

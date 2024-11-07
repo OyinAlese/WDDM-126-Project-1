@@ -164,6 +164,7 @@ section h2 {
 .Artists h3 {
     font-size: 1.3em; /* Medium-sized font for meal names */
     color: #333; /* Dark gray */
+    text-align: center;
 }
 
 .Artists img {

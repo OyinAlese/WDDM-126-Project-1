@@ -20,3 +20,14 @@
     setTimeout(() => {
         introduction.style.opacity = 1;
     }, 800);
+ // 4. Hover effect on all member profiles
+ const memberProfiles = document.querySelectorAll('.member');
+ memberProfiles.forEach((profile) => {
+     profile.style.transition = 'transform 0.3s ease-in-out';
+     profile.addEventListener('mouseover', () => {
+         profile.style.transform = 'scale(1.05)';
+     });
+     profile.addEventListener('mouseout', () => {
+         profile.style.transform = 'scale(1)';
+     });
+ });

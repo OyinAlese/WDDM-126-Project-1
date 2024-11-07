@@ -110,3 +110,10 @@ section h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
+
+/* Image styling within each landmark */
+.Landmarks img {
+    width: 40%; /* Adjust as needed to control image size */
+    height: auto;
+    border-radius: 8px;
+}

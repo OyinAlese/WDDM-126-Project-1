@@ -117,3 +117,14 @@ section h2 {
     height: auto;
     border-radius: 8px;
 }
+
+/* Content styling within each landmark */
+.Landmarks h3 {
+    color: #0044cc;
+    margin-bottom: 10px;
+}
+
+.Landmarks p {
+    color: #333;
+    line-height: 1.6;
+}

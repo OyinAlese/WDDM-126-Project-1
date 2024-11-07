@@ -23,3 +23,9 @@ section h2 {
     text-align: center; /* Center the text */
     margin: 20px 0; /* Space above and below */
 }
+/* Introduction Section */
+#introduction {
+    padding: 10px; /* Padding inside the section */
+    background-color: #ececff; /* Light purple background */
+    text-align: center; /* Center the text */
+}

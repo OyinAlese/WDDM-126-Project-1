@@ -1,0 +1,1 @@
+This is the begining of Project 2; Our react app; a react version of our webpage in Project 1. All commits after this document will be react files.
